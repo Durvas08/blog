@@ -1,50 +1,57 @@
-   
-          *{
-            padding:0;
-            margin:0;
-          }
+*{
+  padding:0;
+  margin:0;
+}
 
 
 .dropbtn {
-  background-color:transparent;
-  border: none;
-  cursor: pointer;
-  margin-top:2.5vw;
-  margin-left:5vw;
-  height:10vw;
-  width:10vw;
-  -webkit-tap-highlight-color: transparent;
+background-color:transparent;
+border: none;
+cursor: pointer;
+top:2.7vw;
+left:5vw;
+height:5vw;
+width:5vw;
+-webkit-tap-highlight-color: transparent;
 position: absolute;
 
+}
+
+#myDropdown{
+  height:50vw;
+  width:35vw
 }
 
 
 
 .dropdown {
-  position: relative;
-  display: inline-block;
+position: relative;
+display: inline-block;
 }
 
 
 .dropdown-content {
-  display: none;
-  position: fixed;
-  margin-top: 15vw;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  height:40vh;
-  width:25vh;
-  font-size:40px
+display: none;
+position: fixed;
+margin-top: 15vw;
+background-color: #f1f1f1;
+min-width: 20vw;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+height:40vh;
+width:25vh;
+font-size:40px;
+font-family: 'Roboto', sans-serif;
+font-weight: 600;
+
 }
 
 
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
 }
 
 
@@ -53,14 +60,14 @@ position: absolute;
 
 
 .img{
-    height:10vw;
-    width:10vw;
-    position: absolute;
-    top:4vw;
-    left:5%;
-    background-image: url(images/menu.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+height:4.7vw;
+width:4.7vw;
+position: absolute;
+top:5vw;
+left:5%;
+background-image: url(images/menu.png);
+background-size: contain;
+background-repeat: no-repeat;
 
 }
 
@@ -68,30 +75,28 @@ position: absolute;
 
 
 .toggle{
-    top:5vw;
-    background-image: url(images/close.png);
+top:5vw;
+background-image: url(images/close.png);
+
 }
 
 .container{
-    width:100%;
-    height:10vh;
-    background-color: rgb(165, 165, 254);
+width:100%;
+height:13vw;
+background-image:linear-gradient(90deg, rgba(25, 62, 108, 0.847), rgba(7, 7, 50, 0.803))
 }
 
 
 
-.png{
-    height:5vw;
-    width:5vw;
-}
+
 
 
 .content{
-    margin-top:10vw
+margin-top:0
 }
 
 .element1, .element2 , .element3{
-  padding-left:5vw;
+padding-left:5vw;
 padding-top:5vw;
 padding-bottom: 5vw;
 font-size: 3vh;
@@ -99,5 +104,77 @@ font-size: 3vh;
 
 
 .element1:hover, .element2:hover, .element3:hover{
-  background-color: #ddd;
+background-color: #ddd;
+}
+
+
+
+.nav{
+display:none;
+}
+
+.png{
+  height: 3vw
+}
+
+.link{
+  font-size: 3vw;
+  font-weight:100;
+}
+  
+  
+@media only screen  and (min-device-width : 426px) and (max-device-width : 1023px)   {
+
+.container{
+  background-image:linear-gradient(90deg, rgba(25, 62, 108, 0.847), rgba(7, 7, 50, 0.803));
+  height: 10vw;
+}
+
+
+.dropbtn{
+  height:7vw;
+}
+
+
+
+.nav{
+  position:absolute;
+  top:2%;
+  left:50%;
+  display: block;
+  display: none;
+}
+
+.nav a{
+  font-size:3vw;
+  text-decoration: none;
+  padding-left: 3vh;
+  padding-right:3vh;
+  font-family: 'Poppins', sans-serif;
+  color:#ffff;
+}
+
+.ds{
+  font-size:3vw;
+  color: #f6f6f6;
+  display:none
+}
+
+}
+
+
+@media only screen  and (min-device-width : 426px) and (max-device-width : 1023px) {
+
+
+
+
+.img{
+ position: absolute;
+  height:4.2vh;
+  width:4.2vh;
+  margin-top:-1.8vw;
+
+}
+
+
 }

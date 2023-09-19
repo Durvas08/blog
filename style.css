@@ -193,7 +193,7 @@ font-weight: 400;
 
   .toggle{
     top:4.6vw;
-    background-image: url(../img_src/close.png);  
+    background-image: url(img_src/close.png);  
     height:2.8vw;
     left:6vw;
     transition: 0.3s ease-in-out;

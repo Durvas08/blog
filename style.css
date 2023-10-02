@@ -4,7 +4,7 @@
   }
   
   body{
-    background-image: url(../img_src/background-mobile.png);
+    background-image: url(img_src/background-mobile.png);
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -76,7 +76,7 @@
   position: absolute;
   top:5vw;
   left:5%;
-  background-image: url('../img_src/menu.png');
+  background-image: url('img_src/menu.png');
   background-size: contain;
   background-repeat: no-repeat;
   transition: 0.3s ease-in-out;
@@ -301,7 +301,7 @@ width:50vh
 
   .toggle{
     top:4.6vw;
-    background-image: url(../img_src/close.png);  
+    background-image: url(img_src/close.png);  
     height:2.8vw;
     left:6vw;
     transition: 0.3s ease-in-out;
@@ -378,7 +378,7 @@ display: none;
 
  
   body{
-    background-image: url(../img_src/background.jpg);
+    background-image: url(img_src/background.jpg);
     background-size:100% 100%;
     background-repeat: no-repeat;
     background-position: center center;

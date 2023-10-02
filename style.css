@@ -88,7 +88,7 @@
   
   .toggle{
   top:5vw;
-  background-image: url(../img_src/close.png);
+  background-image: url(img_src/close.png);
   transition: 0.3s ease-in-out;
   height:3.6vw
   

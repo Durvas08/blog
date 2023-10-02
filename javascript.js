@@ -25,3 +25,22 @@ function myFunction() {
     }
     }
     }
+
+
+ 
+
+
+  setInterval(function(){
+
+var text = document.getElementById("line-1")
+text.id = 'line'
+  },4000);
+
+
+
+
+  setTimeout(()=> {
+    document.getElementById('para').classList.toggle('switch')
+ }
+ ,5800);
+ 
